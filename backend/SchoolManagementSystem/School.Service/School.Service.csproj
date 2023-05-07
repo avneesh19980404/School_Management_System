@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ESG.Common\School.Common.csproj" />
+    <ProjectReference Include="..\ESG.Core\School.Core.csproj" />
+    <ProjectReference Include="..\ESG.Model\School.Model.csproj" />
+  </ItemGroup>
+
+</Project>
